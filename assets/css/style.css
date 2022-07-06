@@ -55,19 +55,19 @@ nav a {
 }
 
 nav #menu {
-    color: red;
+    color: darkred;
 }
 
 nav #about {
-    color: red;
+    color: darkred;
 }
 
 nav #contact {
-    color: red;
+    color: darkred;
 }
 
 nav #home {
-    color: red;
+    color: darkred;
 }
 
 nav a:hover {
