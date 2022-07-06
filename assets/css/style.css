@@ -6,12 +6,17 @@ body {
     text-align: center;
 }
 
+ol {
+    list-style-position: inside;
+    text-align: left;
+}
+
 h1,
 h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
@@ -29,6 +34,7 @@ main {
 
 nav {
     background-color: beige;
+    width: 100%;
     padding: 10px;
 }
 
@@ -48,12 +54,28 @@ nav a {
     margin-right: 25px;
 }
 
+nav #menu {
+    color: red;
+}
+
+nav #about {
+    color: red;
+}
+
+nav #contact {
+    color: red;
+}
+
+nav #home {
+    color: red;
+}
+
 nav a:hover {
     color: darkred;
 }
 
 #banner {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: white;
 }
@@ -65,6 +87,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -75,12 +98,29 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    text-align: right;
+    border: 1px dashed green;
     width: 100%;
 }
-  
-td,
+
+tr {
+    border: 0px;
+}
+
+td {
+    background-color: rgb(197, 228, 195);
+    width: 50%;
+    border: 1px dotted green;
+    text-align: right;
+}
+
 th {
-    border: 1px solid black;
+    border: 1px dotted green;
     padding: 5px;
+}
+
+footer p {
+    color: gold;
+    background-color: goldenrod;
+    border: 1px dashed gold;
 }
