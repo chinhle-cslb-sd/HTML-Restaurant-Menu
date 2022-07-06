@@ -6,11 +6,6 @@ body {
     text-align: center;
 }
 
-ol {
-    list-style-position: inside;
-    text-align: left;
-}
-
 h1,
 h2 {
     color: darkred;
